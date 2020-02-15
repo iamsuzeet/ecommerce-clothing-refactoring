@@ -73,7 +73,6 @@ export const convertCollectionsSnapshopToMap = collections => {
       items
     };
   });
-  console.log(transformedCollection);
 
   return transformedCollection.reduce((reduced, collection) => {
     reduced[collection.title.toLowerCase()] = collection;
